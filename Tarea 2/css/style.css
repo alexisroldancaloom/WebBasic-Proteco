@@ -1,0 +1,54 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.7rem;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+.title {
+    background-color: rgb(88, 108, 102);
+    color: aliceblue;
+    padding: 1.5rem;
+}
+
+img {
+    height: 40px;
+    align-items: center;
+}
+
+a {
+    padding: 1rem;
+}
+
+h4 {
+    margin-top: 4px;
+    border-top: 1px solid black;
+    padding: 0.7rem;
+}
+
+.ig {
+    margin-right: 2rem;
+}
+
+.link {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+}
+
+.contenedorBotones {
+    background-color: beige;
+
+    display: flex;
+    align-items: center;
+    /* centra el div verticalmente */
+    justify-content: center;
+    /* centra el div horizontalmente */
+
+
+}
