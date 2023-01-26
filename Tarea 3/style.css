@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+
+body {
+    background-color: #141414;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+h3 {
+    text-align: center;
+    font-size: 13px;
+    color: rgb(133, 133, 133);
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    margin-right: 20px;
+}
+
+.profilesContainer {
+    /* Lo posicionamos en relación a todo el contenedor */
+    position: absolute;
+    /* Centramos a la mitad de la pantalla */
+    top: 50%;
+    left: 50%;
+    /* Lo desplazamos para alinearlo */
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+.opcion {
+    background-color: transparent;
+    min-height: 130px;
+    width: 100px;
+    display: inline-block;
+
+}
+
+.imagen {
+    background-color: rgba(246, 112, 112, 0.694);
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.moreProfile {
+    background-color: transparent;
+
+}
+
+.moreLogo {
+    padding: 15px 10px;
+    height: 60px;
+    width: 60px;
+    color: aliceblue;
+}
+
+
+.button {
+    height: 30px;
+    width: 220px;
+    border: 0.5px solid rgb(243, 243, 243);
+    padding-bottom: 10px;
+    align-items: center;
+    margin: 30px auto;
+
+
+}
+
+.p1 {
+    background-color: #5c5c5c
+}
+
+.p2 {
+    background-color: #ff7700;
+}
+
+.p3 {
+    background-color: #2a8781;
+}
+
+.p4 {
+    background-color: #ffea00;
+}
