@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+h1 {
+    background-color: rgba(99, 97, 57, 0.343);
+    text-align: center;
+    margin:10px 5px;
+}
+
+.textIntro{
+    
+}
+.intro{
+    background-color: rgba(117, 117, 117, 0.061);
+    height: 50px;
+}
+
+
+.receta{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.ingredientes h3,.pasos h3{
+    background-color: transparent;
+}
+.ingredientes, .pasos{
+    border: 1px solid rgba(62, 61, 61, 0.717);
+    margin-top: 15px;
+}
+.lista,.pasosEnum{
+    border: 1px solid rgba(62, 61, 61, 0.717);
+    margin-bottom: 0;
+}
+

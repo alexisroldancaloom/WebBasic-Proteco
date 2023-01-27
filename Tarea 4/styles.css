@@ -1,0 +1,43 @@
+.containerCards{
+    display: flex;
+    justify-content: space-evenly;
+     /* Lo posicionamos en relación a todo el contenedor */
+     position: absolute;
+     /* Centramos a la mitad de la pantalla */
+     top: 50%;
+     left: 50%;
+     /* Lo desplazamos para alinearlo */
+     transform: translate(-50%, -50%);
+}
+.cardContainer{
+    margin:10px 30px;
+    background-color:aqua;
+    width: 300px;
+    height: 450px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+
+.logo{
+    background-color: blueviolet;
+    margin: 20px auto;
+    width: 100px;
+    height: 100px;
+}
+.titleRed{
+    background-color: black;
+    height: 50px;
+}
+.textDescription{
+    background-color: brown;
+    height: 100px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.button{
+    background-color: blue;
+    height: 60px;
+    margin: 30px auto 50px;
+    width: 200px;
+    border-radius: 50px;
+}
