@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300;400;600;700&family=Open+Sans:wght@600&family=Plus+Jakarta+Sans:wght@700&display=swap');
+
+/* Reseteamos elementos y los dejamos justos para REM */
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+}
+/* 1REM=10px */
+
+:root{
+    --header-height:3rem;
+    --principalColor:#ECECEC;
+    --secondaryColor:#0D0B0B;
+    --thrtyColor:#FF8080;
+
+    --headerFont:'Plus Jakarta Sans', sans-serif;;
+    --secondaryFont:'Open Sans', sans-serif;
+    --primaryFont:'Crimson Pro', serif;
+
+    --heightLogo:3.5rem;
+    --navSize:3rem;
+    --Titles:4rem;
+
+    /* Weight */
+    --fontLight:300;
+    --regular:400;
+    --semiBold:600;
+    --bold:700;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.header{
+    background-color:var(--secondaryColor);
+    height: 10.2rem;
+}
+.nav{
+    margin-left: 10rem;
+    display: flex;
+}
+.navLogo{
+    font-size: 3.5rem;
+    text-decoration: none;
+    font-family: var(--headerFont);
+    letter-spacing: 1rem;
+}
+.navList{
+    display: flex;
+    justify-content: center;
+}
+.navMenu{
+
+}
+.navLink{
+    font-family: var(--secondaryFont);
+    letter-spacing: 1rem;
+    
+}
